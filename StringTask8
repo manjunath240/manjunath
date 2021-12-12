@@ -1,0 +1,15 @@
+package StringTask;
+
+public class StringTask8 {
+public static void main(String[] args) {
+	String name="amc enginering college";
+	char[] ch=name.toCharArray();
+	String str="";
+	for(int i=0;i<name.length();i++)
+	{
+		str=str+Character.toUpperCase(ch[i]);
+		
+	}
+	System.out.println(""+str);
+}
+}
