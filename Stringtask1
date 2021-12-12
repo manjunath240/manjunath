@@ -1,0 +1,18 @@
+package StringTask;
+
+import java.util.Scanner;
+
+public class StringTask_1 {
+
+	public static void main(String[] args) {
+		Scanner scan=new Scanner(System.in);
+		System.out.println("Enter the String: ");
+		String userInput=scan.next();
+		System.out.println("Enter the index number to get the character");
+		byte indexNumber=scan.nextByte();
+		System.out.println("the character at the given index is: "+(userInput.charAt(indexNumber)));
+		
+               
+	}
+
+}
